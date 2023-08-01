@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>5x-Images</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logoNav">
+        <div class="headLogo">
+          <h1>5x</h1>
+          <h2>-Images</h2>
+        </div>
+        <span class="material-symbols-outlined menuicon" onclick="menuicon()">
+          menu
+        </span>
+        <div class="navbar">
+          <!-- <ul>
+            <li><a href="">Image</a></li>
+            <li><a href="">Video</a></li>
+            <li><a href="">Music</a></li>
+          </ul> -->
+        </div>
+      </div>
+
+      <div class="searchMargin">
+        <form class="SearchLogoBtn" id="SearchLogoBtn">
+          <input
+            type="text"
+            placeholder="Search Here For More Images.."
+            id="searchBar"
+            class="searchBar"
+          />
+          <button class="btnIcon">
+            <span class="material-symbols-outlined searchIcon"> search </span>
+          </button>
+        </form>
+      </div>
+    </div>
+    <!-- Click on to get the result -->
+    <div class="wrapperMain">
+      <div class="wrapper">
+        <div class="icon">
+          <span id="left" class="material-symbols-outlined">
+            arrow_back_ios
+          </span>
+        </div>
+        <ul class="btnSearchBar tabs-box">
+          <li class="btnAll tab btnNature">Nature</li>
+          <li class="btnAll tab btnflower">Flower</li>
+          <li class="btnAll tab btncity">City</li>
+          <li class="btnAll tab btnanimal">Animal</li>
+          <li class="btnAll tab btntravel">Travel</li>
+          <li class="btnAll tab btnfood">Food</li>
+          <li class="btnAll tab btnfashion">Fashion</li>
+          <li class="btnAll tab btnwork">Work</li>
+          <li class="btnAll tab btnsports">Sports</li>
+          <li class="btnAll tab btngadgets">Gadgets</li>
+          <li class="btnAll tab btnarchitecture">Architecture</li>
+          <li class="btnAll tab btncartoon">Cartoon</li>
+          <li class="btnAll tab btndoctor">Doctor</li>
+          <li class="btnAll tab btnhome">Home</li>
+          <li class="btnAll tab btnhotel">Hotel</li>
+          <li class="btnAll tab btngarden">Garden</li>
+          <li class="btnAll tab btnperson">Person</li>
+        </ul>
+        <div class="icon">
+          <span id="right" class="material-symbols-outlined">
+            arrow_forward_ios
+          </span>
+        </div>
+      </div>
+    </div>
+    <!-- Click on to get the result -->
+
+    <!-- -----------Images Section------------ -->
+
+    <div class="imagesMainBar">
+      <div class="imagesbar" id="imagesbar"></div>
+    </div>
+
+    <button id="showMorebtn" onclick="showMoreNow()">Show more</button>
+
+    <!-- -----------Images Section------------ -->
+
+    <script src="app.js"></script>
+  </body>
+</html>
