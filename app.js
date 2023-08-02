@@ -1,14 +1,14 @@
 /* Navbar open and close */
 const logoNav = document.querySelector(".logoNav");
 
-logoNav.style.maxHeight = "48px";
+/* logoNav.style.maxHeight = "48px";
 function menuicon() {
   if (logoNav.style.maxHeight == "48px") {
     logoNav.style.maxHeight = "145px";
   } else {
     logoNav.style.maxHeight = "48px";
   }
-}
+} */
 /* Navbar open and close */
 
 /* Show Images by searching the content  */
@@ -139,7 +139,7 @@ const btnhome = document.querySelector(".btnhome");
 /*  */
 
 async function searchBybtn() {
-  const url = `https://api.unsplash.com/search/photos?page=${page}&query=nature&client_id=${accessKey}&per_page=10`;
+  const url = `https://api.unsplash.com/search/photos?page=${page}&query=nature&client_id=${accessKey}&per_page=35`;
   response = await fetch(url);
   btnSearchYes();
   showMorebtn.style.display = "none";
@@ -152,7 +152,7 @@ btnNature.addEventListener("click", (e) => {
 
 /* flower  */
 async function searchbtnflower() {
-  const url = `https://api.unsplash.com/search/photos?page=${page}&query=flower&client_id=${accessKey}&per_page=10`;
+  const url = `https://api.unsplash.com/search/photos?page=${page}&query=flower&client_id=${accessKey}&per_page=35`;
   response = await fetch(url);
   btnSearchYes();
 }
@@ -164,7 +164,7 @@ btnflower.addEventListener("click", (e) => {
 /* city */
 
 async function searchbtncity() {
-  const url = `https://api.unsplash.com/search/photos?page=${page}&query=city&client_id=${accessKey}&per_page=10`;
+  const url = `https://api.unsplash.com/search/photos?page=${page}&query=city&client_id=${accessKey}&per_page=35`;
   response = await fetch(url);
   btnSearchYes();
 }
@@ -176,7 +176,7 @@ btncity.addEventListener("click", (e) => {
 /* Animal */
 
 async function searchbtnanimal() {
-  const url = `https://api.unsplash.com/search/photos?page=${page}&query=animal&client_id=${accessKey}&per_page=10`;
+  const url = `https://api.unsplash.com/search/photos?page=${page}&query=animal&client_id=${accessKey}&per_page=35`;
   response = await fetch(url);
   btnSearchYes();
 }
@@ -188,7 +188,7 @@ btnanimal.addEventListener("click", (e) => {
 /* Travel */
 
 async function searchbtntravel() {
-  const url = `https://api.unsplash.com/search/photos?page=${page}&query=travel&client_id=${accessKey}&per_page=10`;
+  const url = `https://api.unsplash.com/search/photos?page=${page}&query=travel&client_id=${accessKey}&per_page=35`;
   response = await fetch(url);
   btnSearchYes();
 }
@@ -200,7 +200,7 @@ btntravel.addEventListener("click", (e) => {
 /* Food */
 
 async function searchbtnfood() {
-  const url = `https://api.unsplash.com/search/photos?page=${page}&query=food&client_id=${accessKey}&per_page=10`;
+  const url = `https://api.unsplash.com/search/photos?page=${page}&query=food&client_id=${accessKey}&per_page=35`;
   response = await fetch(url);
   btnSearchYes();
 }
@@ -212,7 +212,7 @@ btnfood.addEventListener("click", (e) => {
 /* Fashion */
 
 async function searchbtnfashion() {
-  const url = `https://api.unsplash.com/search/photos?page=${page}&query=fashion&client_id=${accessKey}&per_page=10`;
+  const url = `https://api.unsplash.com/search/photos?page=${page}&query=fashion&client_id=${accessKey}&per_page=35`;
   response = await fetch(url);
   btnSearchYes();
 }
@@ -224,7 +224,7 @@ btnfashion.addEventListener("click", (e) => {
 /* Work */
 
 async function searchbtnwork() {
-  const url = `https://api.unsplash.com/search/photos?page=${page}&query=work&client_id=${accessKey}&per_page=10`;
+  const url = `https://api.unsplash.com/search/photos?page=${page}&query=work&client_id=${accessKey}&per_page=35`;
   response = await fetch(url);
   btnSearchYes();
 }
@@ -236,7 +236,7 @@ btnwork.addEventListener("click", (e) => {
 /* Sports */
 
 async function searchbtnsports() {
-  const url = `https://api.unsplash.com/search/photos?page=${page}&query=sports&client_id=${accessKey}&per_page=10`;
+  const url = `https://api.unsplash.com/search/photos?page=${page}&query=sports&client_id=${accessKey}&per_page=35`;
   response = await fetch(url);
   btnSearchYes();
 }
@@ -248,7 +248,7 @@ btnsports.addEventListener("click", (e) => {
 /* Gadgets */
 
 async function searchbtngadgets() {
-  const url = `https://api.unsplash.com/search/photos?page=${page}&query=gadget&client_id=${accessKey}&per_page=10`;
+  const url = `https://api.unsplash.com/search/photos?page=${page}&query=gadget&client_id=${accessKey}&per_page=35`;
   response = await fetch(url);
   btnSearchYes();
 }
@@ -260,7 +260,7 @@ btngadgets.addEventListener("click", (e) => {
 /* Architecture */
 
 async function searchbtnarchitecture() {
-  const url = `https://api.unsplash.com/search/photos?page=${page}&query=architecture&client_id=${accessKey}&per_page=10`;
+  const url = `https://api.unsplash.com/search/photos?page=${page}&query=architecture&client_id=${accessKey}&per_page=35`;
   response = await fetch(url);
   btnSearchYes();
 }
@@ -272,7 +272,7 @@ btnarchitecture.addEventListener("click", (e) => {
 /* Cartoon */
 
 async function searchbtncartoon() {
-  const url = `https://api.unsplash.com/search/photos?page=${page}&query=cartoon&client_id=${accessKey}&per_page=10`;
+  const url = `https://api.unsplash.com/search/photos?page=${page}&query=cartoon&client_id=${accessKey}&per_page=35`;
   response = await fetch(url);
   btnSearchYes();
 }
@@ -284,7 +284,7 @@ btncartoon.addEventListener("click", (e) => {
 
 /* Doctor */
 async function searchbtndoctor() {
-  const url = `https://api.unsplash.com/search/photos?page=${page}&query=doctor&client_id=${accessKey}&per_page=10`;
+  const url = `https://api.unsplash.com/search/photos?page=${page}&query=doctor&client_id=${accessKey}&per_page=35`;
   response = await fetch(url);
   btnSearchYes();
 }
@@ -296,7 +296,7 @@ btndoctor.addEventListener("click", (e) => {
 
 /* Home */
 async function searchbtnhome() {
-  const url = `https://api.unsplash.com/search/photos?page=${page}&query=home&client_id=${accessKey}&per_page=10`;
+  const url = `https://api.unsplash.com/search/photos?page=${page}&query=home&client_id=${accessKey}&per_page=35`;
   response = await fetch(url);
   btnSearchYes();
 }
@@ -307,7 +307,7 @@ btnhome.addEventListener("click", (e) => {
 });
 /* Hotel */
 async function searchbtnhotel() {
-  const url = `https://api.unsplash.com/search/photos?page=${page}&query=hotel&client_id=${accessKey}&per_page=10`;
+  const url = `https://api.unsplash.com/search/photos?page=${page}&query=hotel&client_id=${accessKey}&per_page=35`;
   response = await fetch(url);
   btnSearchYes();
 }
@@ -318,7 +318,7 @@ btnhotel.addEventListener("click", (e) => {
 });
 /* Garden */
 async function searchbtngarden() {
-  const url = `https://api.unsplash.com/search/photos?page=${page}&query=garden&client_id=${accessKey}&per_page=10`;
+  const url = `https://api.unsplash.com/search/photos?page=${page}&query=garden&client_id=${accessKey}&per_page=35`;
   response = await fetch(url);
   btnSearchYes();
 }
@@ -329,7 +329,7 @@ btngarden.addEventListener("click", (e) => {
 });
 /* Person */
 async function searchbtnperson() {
-  const url = `https://api.unsplash.com/search/photos?page=${page}&query=person&client_id=${accessKey}&per_page=10`;
+  const url = `https://api.unsplash.com/search/photos?page=${page}&query=person&client_id=${accessKey}&per_page=35`;
   response = await fetch(url);
   btnSearchYes();
 }
